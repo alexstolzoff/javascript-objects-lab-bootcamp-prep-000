@@ -30,3 +30,4 @@ destructivelyDeleteFromObjectByKey(object,key){
  updateObjectWithKeyAndValue(recipes,"ingredient4","cinnamon");
  destructivelyUpdateObjectWithKeyAndValue(recipes,"ingredient5","lemon");
  deleteFromObjectByKey(recipes,"ingredient1");
+ destructivelyDeleteFromObjectByKey(recipes,"ingredient1");
