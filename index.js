@@ -3,3 +3,12 @@ var recipes = {
   ingredient2:"appple",
   ingredient3:"sugar"
 };
+
+function updateObjectWithKeyAndValue(object, key, value){
+  var newRecipes;
+  newRecipes = Object.assign({}, object);
+  newRecipes.key = value;
+}
+
+
+updateObjectWithKeyAndValue(recipes,ingredient4,"cinnamon");
