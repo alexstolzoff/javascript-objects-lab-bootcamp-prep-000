@@ -15,5 +15,5 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   return object;
 }
 
- updateObjectWithKeyAndValue(recipes,"ingredient4","cinnamon");
+ // updateObjectWithKeyAndValue(recipes,"ingredient4","cinnamon");
 destructivelyUpdateObjectWithKeyAndValue(recipe,"ingredient5","lemon");
