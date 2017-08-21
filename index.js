@@ -5,9 +5,8 @@ var recipes = {
 };
 
 function updateObjectWithKeyAndValue(object, key, value){
-  var newObject = object;
-  newObject.key = value;
-  return newObject;
+object[key] = value;
+return object;
 }
 
 // function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
@@ -15,5 +14,5 @@ function updateObjectWithKeyAndValue(object, key, value){
 //   return object;
 // }
 
- updateObjectWithKeyAndValue(recipes,"ingredient4","cinnamon");
+ updateObjectWithKeyAndValue(recipes,ingredient4,"cinnamon");
 // destructivelyUpdateObjectWithKeyAndValue(recipe,"ingredient5","lemon");
