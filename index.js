@@ -4,16 +4,16 @@ var recipes = {
   ingredient3:"sugar"
 };
 
-// function updateObjectWithKeyAndValue(object, key, value){
-//   var newObject = object;
-//   newObject.key = value;
-//   return newObject;
-// }
-
-function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
-  object.key = value;
-  return object;
+function updateObjectWithKeyAndValue(object, key, value){
+  var newObject = object;
+  newObject.key = value;
+  return newObject;
 }
 
- // updateObjectWithKeyAndValue(recipes,"ingredient4","cinnamon");
-destructivelyUpdateObjectWithKeyAndValue(recipe,"ingredient5","lemon");
+// function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
+//   object.key = value;
+//   return object;
+// }
+
+ updateObjectWithKeyAndValue(recipes,"ingredient4","cinnamon");
+// destructivelyUpdateObjectWithKeyAndValue(recipe,"ingredient5","lemon");
