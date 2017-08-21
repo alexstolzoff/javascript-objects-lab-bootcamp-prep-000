@@ -18,4 +18,4 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 }
 
  // updateObjectWithKeyAndValue(recipes,"ingredient4","cinnamon");
- destructivelyUpdateObjectWithKeyAndValue(recipes,ingredient5,"lemon");
+ destructivelyUpdateObjectWithKeyAndValue(recipes,"ingredient5","lemon");
