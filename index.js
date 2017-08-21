@@ -22,9 +22,9 @@ function deleteFromObjectByKey(object, key){
   delete newObject.key;
   return newObject;
   return object;
+  console.log(object);
 }
 
  updateObjectWithKeyAndValue(recipes,"ingredient4","cinnamon");
  destructivelyUpdateObjectWithKeyAndValue(recipes,"ingredient5","lemon");
  deleteFromObjectByKey(recipes,"ingredient1");
- print(object);
