@@ -12,9 +12,9 @@ var recipes = {
 // }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
-  var newObject = object;
-  newObject[key] = value;
-  return newObject;
+  // var newObject = object;
+  object.[key] = value;
+  return object;
 }
 
  // updateObjectWithKeyAndValue(recipes,"ingredient4","cinnamon");
