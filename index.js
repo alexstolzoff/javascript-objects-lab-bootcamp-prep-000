@@ -21,8 +21,6 @@ function deleteFromObjectByKey(object, key){
   var newObject = Object.assign({},object);
   delete newObject.key;
   return newObject;
-  return object;
-  console.log(object);
 }
 
  updateObjectWithKeyAndValue(recipes,"ingredient4","cinnamon");
