@@ -13,7 +13,7 @@ var recipes = {
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   // var newObject = object;
-  object.[key] = value;
+  object[key] = value;
   return object;
 }
 
